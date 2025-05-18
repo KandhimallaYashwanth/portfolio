@@ -1,4 +1,5 @@
 # Kandhimalla Yashwanth Portfolio
+view: https://buildwithyashh.netlify.app/
 
 A modern, interactive, and responsive personal portfolio website built with React, TypeScript, Tailwind CSS, and Vite. Showcases projects, skills, education, and contact information with beautiful UI and smooth animations.
 
