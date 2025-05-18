@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Glowing effect for profile image */
+.glow-img {
+  box-shadow: 0 0 32px 8px #60a5fa, 0 0 64px 16px #2563eb44;
+  transition: box-shadow 0.4s;
+}
+.glow-img:hover {
+  box-shadow: 0 0 48px 16px #60a5fa, 0 0 96px 32px #2563eb88;
+}
+
+/* Button transitions */
+.glow-btn {
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s;
+  box-shadow: 0 2px 16px 0 #2563eb22;
+}
+.glow-btn:hover {
+  box-shadow: 0 4px 32px 0 #60a5fa88;
+  transform: translateY(-2px) scale(1.05);
+}
+
+/* Card transitions */
+.glow-card {
+  transition: box-shadow 0.4s, transform 0.3s;
+  box-shadow: 0 2px 16px 0 #2563eb22;
+}
+.glow-card:hover {
+  box-shadow: 0 8px 40px 0 #60a5fa88;
+  transform: translateY(-4px) scale(1.03);
+}
